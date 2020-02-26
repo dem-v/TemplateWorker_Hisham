@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TemplateWorker_Hisham"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Template Worker" Height="350" Width="750">
+    <Grid Margin="0,0,3.6,-20" Width="700" Height="300">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="333*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox HorizontalAlignment="Left" Height="40.761" Margin="211.226,100.366,0,0" VerticalAlignment="Top" Width="278.805" FontFamily="Sylfaen" Grid.ColumnSpan="2"/>
+        <Label Content="Select time period" HorizontalAlignment="Left" Margin="0,100.366,0,0" VerticalAlignment="Top" Height="40.761" Width="211.226" FontSize="24" FontFamily="Sylfaen"/>
+        <Button x:Name="StartButton" Click="StartButton_Click" Content="START" HorizontalAlignment="Left" Height="44.022" Margin="10,247.105,0,0" VerticalAlignment="Top" Width="201.226" FontSize="20" FontWeight="Bold" FontFamily="Sylfaen"/>
+        <Button x:Name="StopButton" Click="StopButton_Click" Content="STOP" HorizontalAlignment="Left" Height="44.022" Margin="235,247.105,0,0" VerticalAlignment="Top" Width="201.226" FontSize="20" FontWeight="Bold" FontFamily="Sylfaen" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button x:Name="SettingsButton" Click="SettingsButton_Click" Content="SETTINGS" HorizontalAlignment="Left" Height="44.022" Margin="94.748,247.105,0,0" VerticalAlignment="Top" Width="201.226" FontSize="20" FontWeight="Bold" FontFamily="Sylfaen" Grid.Column="1"/>
+        <Label Content="Status of the poller:" HorizontalAlignment="Left" Margin="-4.774,10,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Sylfaen"/>
+        <Label Content="UNKNOWN" HorizontalAlignment="Left" Margin="235,10,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" FontFamily="Sylfaen" Grid.ColumnSpan="2"/>
+
     </Grid>
 </Window>

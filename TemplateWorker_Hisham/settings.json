@@ -1,0 +1,22 @@
+{
+  "ServerName": "68.178.143.107",
+  "DatabaseName": "inscritcaurix",
+  "Port": 1434,
+  "UserID": "inscritcaurix",
+  "Password": "Caurix123!",
+  "SenderEmail": "repeaterz@live.ru",
+  "ReceiverEmail": "repeaterz@live.ru",
+  "TemplateFileName": "template.docx",
+  "ColumnsMap": {
+    "Prenom": "PPPPPP",
+    "Nom": "NNNNNN",
+    "MSIDN": "TTTTTT",
+    "NationalIDN": "IIIIII",
+    "Date_Naissance": "DDDDDD",
+    "adresse": "AAAAAA",
+    "Ville": "VVVVVV",
+    "Place_of_Birth": "LLLLLL",
+    "email": "EEEEEE"
+  },
+  "IDsToSkip": []
+}

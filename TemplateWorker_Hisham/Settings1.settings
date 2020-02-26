@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TemplateWorker_Hisham" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">68.178.143.107</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">inscritcaurix</Value>
+    </Setting>
+    <Setting Name="Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1434</Value>
+    </Setting>
+    <Setting Name="UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">inscritcaurix</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Caurix123!</Value>
+    </Setting>
+    <Setting Name="SenderEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">repeaterz@live.ru</Value>
+    </Setting>
+    <Setting Name="ReceiverEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">repeaterz@live.ru</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

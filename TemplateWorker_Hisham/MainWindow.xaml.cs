@@ -23,5 +23,22 @@ namespace TemplateWorker_Hisham
         {
             InitializeComponent();
         }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            StopButton.IsEnabled = true;
+            StartButton.IsEnabled = false;
+        }
+
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            StartButton.IsEnabled = true;
+            StopButton.IsEnabled = false;
+        }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
